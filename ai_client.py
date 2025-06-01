@@ -55,7 +55,7 @@ class ResumeRoasterAI:
         {file_content}
     ignore some formatting issues like weird symbols or lines as they are comming because of the pdf to text conversion.
         TARGET JOB ROLE:
-        Keep your response concise, under 500 words,give answer in hindi+english(hinglish) and ensure it is both entertaining and helpful. Focus on roasting the resume constructively while maintaining a professional tone.
+        Keep your response concise, under 500 words,give answer in hinglish and ensure it is both entertaining and helpful. Focus on roasting the resume constructively while maintaining a professional tone.
         """
 
     def get_roast_response(self, file_content, job_role):
