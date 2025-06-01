@@ -45,6 +45,10 @@ st.divider()  # Add visual separator
 st.badge(f"Made by: {APP_CREATOR}")  # Display creator badge
 st.subheader(APP_DESCRIPTION)  # Display app description
 
+#disclaimer
+st.info("⚠️ **Disclaimer:** This is for learning and prototyping purposes only. AI can make mistakes - use feedback as guidance, not absolute truth!")
+
+
 # Create main input section on front page with better layout
 st.markdown('<div class="upload-section">', unsafe_allow_html=True)
 
